@@ -1,166 +1,164 @@
 @font-face {
-    font-family: Arial, 'Helvetica', sans-serif;
-    src: url(https://www.cdnfonts.com/helveticaneue-2.font);
-  }
+  font-family: Arial, 'Helvetica', sans-serif;
+  src: url(https://www.cdnfonts.com/helveticaneue-2.font);
+}
 
-  @font-face {
-    font-family: VALORANT;
-    src: url(http://fonts.cdnfonts.com/css/valorant);
-  }
+@font-face {
+  font-family: VALORANT;
+  src: url(http://fonts.cdnfonts.com/css/valorant);
+}
 
 body {
-  padding: 0;
-  margin: 0;
-  background: #0f1b25;;
-  font-family: DINNextW1G,arial,georgia,sans-serif;
+padding: 0;
+margin: 0;
+font-family: DINNextW1G,arial,georgia,sans-serif;
 }
 .navbar {
-  background:#fc444d;
-  font-family: DINNextW1G,arial,georgia,sans-serif;
+background:#fc444d;
+font-family: DINNextW1G,arial,georgia,sans-serif;
 
 }
 .nav-link,
 .navbar-brand {
-  color: #fff;
-  cursor: pointer;
-  font-family: VALORANT;
+color: #fff;
+cursor: pointer;
+font-family: VALORANT;
 
 }
 .nav-link {
-  margin-right: 1em !important;
-  font-family: DINNextW1G,arial,georgia,sans-serif;}
+margin-right: 1em !important;
+font-family: DINNextW1G,arial,georgia,sans-serif;}
 .nav-link:hover {
-  color: #000;
-  font-family: DINNextW1G,arial,georgia,sans-serif;
+font-family: DINNextW1G,arial,georgia,sans-serif;
 }
 .navbar-collapse {
-  justify-content: flex-end;
-  font-family: DINNextW1G,arial,georgia,sans-serif;
+justify-content: flex-end;
+font-family: DINNextW1G,arial,georgia,sans-serif;
 }
 
 .overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(78, 67, 67, 0.13);
-  -webkit-filter: blur(5px);   -moz-filter: blur(5px);   -o-filter: blur(5px);   -ms-filter: blur(5px);   filter: blur(5px);
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0;
+top: 0;
+background: rgba(78, 67, 67, 0.13);
+-webkit-filter: blur(5px);   -moz-filter: blur(5px);   -o-filter: blur(5px);   -ms-filter: blur(5px);   filter: blur(5px);
 }
 
 div {
-  font-family: VALORANT;
+font-family: VALORANT;
 }
-                                              
+                                            
 
 body {
-  background-color:#6e6f70;
-  text-align: center;
-  
+background-color:#6e6f70;
+text-align: center;
+
 }
 h1 {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
 
-  background-color:#0e1822;
+font-family: VALORANT;
+font-size: 300%;
 
-  font-family: VALORANT;
-  font-size: 300%;
 
-  
 }
 h2 {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
 
-  background-color:#0e1822;
-  color:#dc3d4b;
-  font-family: VALORANT;
-  font-size: 200%;
+color:#dc3d4b;
+font-family: VALORANT;
+font-size: 200%;
 
-  text-shadow: 2px 2px black;
+text-shadow: 2px 2px black;
 }
 
 h3 {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
 
-  background-color:#0e1822;
-  color:#ffffff;
-  font-family: Arial, 'Helvetica', sans-serif;
-  font-size: 150%;
+color:#ffffff;
+font-family: Arial, 'Helvetica', sans-serif;
+font-size: 150%;
 
-  text-shadow: 2px 2px black;
+text-shadow: 2px 2px black;
 }
 
 p {
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
- 
-  color:#ffffff;
-  font-family: Arial, 'Helvetica', sans-serif;
-  font-size: 100%;
-  font-weight: 100;
+text-align: center;
+margin: auto;
+width: 50%;
+padding: 10px;
+
+color:#ffffff;
+font-family: Arial, 'Helvetica', sans-serif;
+font-size: 100%;
+font-weight: 100;
 }
 
 ul {  
-  
-  margin: auto;
-  width: 50%;
-  border: 3px solid #0e1822;
-  padding: 10px;
-  text-align: center;
+
+margin: auto;
+width: 50%;
+padding: 10px;
+text-align: center;
 
 
-  color: #ffffff;
-  font-family: Arial, 'Helvetica', sans-serif;
-  font-size: 100%;
+color: #ffffff;
+font-family: Arial, 'Helvetica', sans-serif;
+font-size: 100%;
 }
 
-li {
-  background-color: #0e1822;    
+li {   
 
-  text-align: center;
+text-align: center;
 
-  margin: auto;
-  width: 50%;
-  border: 3px solid #0e1822;
-  padding: 10px;
+margin: auto;
+width: 50%;
+padding: 10px;
 
-  color: white;
+color: white;
 }
 
 table {
-  background-color:#0e1822;    
-  
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  border: 3px solid #0e1822;
-  padding: 10px;
 
-  color: #ffffff;
-  font-family: Arial, 'Helvetica', sans-serif;
-  font-size: 100%;
+text-align: center;
+margin: auto;
+width: 50%;
+padding: 10px;
+
+color: #ffffff;
+font-family: Arial, 'Helvetica', sans-serif;
+font-size: 100%;
 }
 
 
 
 #myHeader {
-background-color: #5f6670;
 color: #fa4454;
 padding: 40px;
 text-align: center;
 }
 
+.containter {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: flex-end;
+}
+
+.item {
+  margin: 5px;
+}
