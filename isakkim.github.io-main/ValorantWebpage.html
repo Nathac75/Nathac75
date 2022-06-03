@@ -276,6 +276,32 @@ function clearTeam() {
 </script>
 
 
+ <!--This is Nathan's use of Javascript -->
+
+ <input id="clickMe" type="button" value="Generate Team Name" onclick="generateName();" />
+  
+  <h3 id="random_name"></h3>
+  
+
+  <script>
+    function capFirst(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    function generateName(){
+      var first_name = ["SENTINELS","FAZE","OPTIC","FNATIC"];
+
+      var last_name = ["1","2","3","4","5"];
+
+      var name = capFirst(first_name[getRandomInt(0, first_name.length + 1)]) + ' ' + capFirst(last_name[getRandomInt(0, last_name.length + 1)]);
+        document.getElementById("random_name").innerHTML = name;
+    }
+</script>
+
     </body>
     
 </html>
