@@ -302,8 +302,30 @@ function clearTeam() {
     }
 </script>
 
+<h2>Random Map Generator</h2> <!--This is Isak's part for Javascript-->
+<script>  
+function getRandomImage() {  
+
+var randomImage = new Array();  
+  
+randomImage[0] = "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5afffe335e51db97/626c2e23d2794936634f95ce/04-2022-Icebox-9.jpg?auto=webp&width=915";  
+randomImage[1] = "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1a720126e3713bba/6131bf518e16ab655b34901a/Fracture_Screenshot-8.jpg?auto=webp&width=915";  
+randomImage[2] = "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt65a4029cdfaf77b4/5eabe9861b51e36d7c1b67ab/haven2.jpg?auto=webp&width=915";  
+randomImage[3] = "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt930666d9ab927326/5eabe9c45751b2150e57a42c/ascent1.jpg?auto=webp&width=915";  
+randomImage[4] = "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltdfd43bd79d9b3410/5eabe9fea20afe612d82f833/split3.jpg?auto=webp&width=915";  
+randomImage[5] = "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt81c2ff999b2e5887/5eabe92d08d37e6d82ef715a/bind4.jpg?auto=webp&width=915";  
+  
+var number = Math.floor(Math.random()*randomImage.length);  
+
+return document.getElementById("result").innerHTML = '<img src="'+randomImage[number]+'" />';  
+}  
+  
+</script>  
+<body>  
+<h3>Click button to generate a random map</h3>
+<button onclick = "getRandomImage()"> Generate Image </button>  
+<span id="result" align="center"> </span>  
     </body>
-    
 </html>
 
 <!-- Kristina did the nav bar, Nathan did the background and overlays, Isak did the flexboxes -->
