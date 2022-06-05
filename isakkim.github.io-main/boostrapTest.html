@@ -25,20 +25,19 @@
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                    <!--Mark's comment 5/15: Any reason why you all didn't make these links clickable? They could jump to the relevant section on your page.-->
+                    <a class="nav-link" href="#myHeader">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#TheGame">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Agents</a>
+                    <a class="nav-link" href="#ValorantAgents">Agents</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Weapons and Abilities</a>
+                    <a class="nav-link" href="#WeaponsAbilities">Weapons and Abilities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">E-Sports</a>
+                    <a class="nav-link" href="#Esports">E-Sports</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">FAQ</a>
@@ -54,11 +53,9 @@
             <h1 id="myHeader">
                 A VALORANT WEBPAGE
             </h1>
-            <h2> Welcome to our webpage! </p>
-                <!--Mark's comment: this should be a closing /h2 element, not /p. In line 37, you have a style tag/element, but no such tag exists so delete that. What were you trying to do with that?-->
-                <!--Mark's comment 5/15: I expect you to fix errors that I point out!-->
-                <h2> The Game </h2>
-                <p class="LongWriting">This is a page about <em><strong><!--Mark's comment 5/15: Lines 62-64 is an error. You generally want to put style blocks up at the top in the head element, but also it doesn't appear you're using the style tag correctly here. (It sort of breaks VSCodes autochecker, too.)-->
+            <h2> Welcome to our webpage! </h2>
+                <h2 id="TheGame"> The Game </h2>
+                <p class="LongWriting">This is a page about <em><strong><!--Mark's comment 5/15: Lines 59-61 is an error. You generally want to put style blocks up at the top in the head element, but also it doesn't appear you're using the style tag correctly here. (It sort of breaks VSCodes autochecker, too.)-->
                             <style>
                                 Valorant
                             </style>
@@ -73,11 +70,10 @@
                 <hr>
         </div>
 
-        <!--- Isak is doing the characters section of this page-->
-        <!--Mark's comment: your comment opening only needs two dashes.-->
+        <!-- Isak is doing the characters section of this page -->
         <div class="bg-image"
             style="background-image:url('https://cdn.discordapp.com/attachments/960678189678604348/974461318788698132/unknown.png')">
-            <h2 style="color:#dc3d4b;"> The Agents </h2>
+            <h2 id="ValorantAgents" style="color:#dc3d4b;"> The Agents </h2>
             <img src="https://cdn-wp.thesportsrush.com/2022/01/1df1f4ee-valorant-agents.jpg" width="500"
                 alt="Valorant Agents">
             <h3>Valorant provides a wide range of unique characters with different roles that users can play.</h3>
@@ -131,7 +127,7 @@
             style="background-image:url('https://cdn.discordapp.com/attachments/960678189678604348/974461318788698132/unknown.png')">
             <hr>
             <!-- Kristina did the whole competition portion of this page as well as did the body, header, and div formating -->
-            <h2>The Competition </h2>
+            <h2 id="Esports">The Competition </h2>
             <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltfa8fbd5977dcbf05/60cf706b4e87de56c81241a6/Stage-3-Header.jpg"
                 alt="Valorant Challengers" width="500">
 
@@ -183,7 +179,7 @@
         </div>
 
         <hr>
-        <h2>The Weapons and Abilities</h2>
+        <h2 id="WeaponsAbilities">The Weapons and Abilities</h2>
         <img src="https://www.esports.net/wp-content/uploads/2021/11/Valorant-Weapons.jpg" alt="Valorant Weapons Screen"
             title="Valorant Weapons" />
         <br>
